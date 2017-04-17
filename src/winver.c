@@ -6,9 +6,8 @@
 #ifdef WIN32
 
 /* src/library/utils/src/windows/util.c */
-#include <Defn.h>
+
 #include <windows.h>
-#include "win-nls.h"
 
 typedef void (WINAPI *PGNSI)(LPSYSTEM_INFO);
 
@@ -84,7 +83,7 @@ SEXP winver() {
 	       (int) osvi.wServicePackMajor);
     } else {
       snprintf(ver, 256,
-	       "Windows %s%s"
+	       "Windows %s%s",
 	       desc, type,
 	       LOWORD(osvi.dwBuildNumber));
     }
