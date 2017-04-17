@@ -7,6 +7,7 @@
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/github/r-pkgs/osname?svg=true)](https://ci.appveyor.com/project/gaborcsardi/osname)
 [![](http://www.r-pkg.org/badges/version/osname)](http://www.r-pkg.org/pkg/osname)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/osname)](http://www.r-pkg.org/pkg/osname)
+[![Coverage Status](https://img.shields.io/codecov/c/github/r-pkgs/osname/master.svg)](https://codecov.io/github/r-pkgs/osname?branch=master)
 
 For example, Windows 8.1 instead of version 6.3.9600.
 On macOS it includes the code names, on Linux it includes the
