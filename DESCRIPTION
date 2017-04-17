@@ -1,14 +1,17 @@
 Package: osname
 Title: Human Readable Operating System Names
-Version: 1.0.0
-Author: Gábor Csárdi
+Version: 0.0.0.9000
+Author: Gábor Csárdi, R-core
 Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
-Description: For example, Windows 8.1 instead of version 6.3.9600. On macOS it includes
-  the release names, on Linux it includes the name of the distribution.
+Description: For example, Windows 8.1 instead of version 6.3.9600.
+    On macOS it includes the code names, on Linux it includes the
+    distribution names and codenames if appropriate.
 License: GPL-2
 LazyData: true
 URL: https://github.com/r-pkgs/osname#readme
 BugReports: https://github.com/r-pkgs/osname/issues
 RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE)
 Suggests: 
     testthat
+Encoding: UTF-8
