@@ -6,10 +6,13 @@
 #' @return A length one character vector.
 #'
 #' @export
+#' @useDynLib osname, .registration = TRUE, .fixes = "c_"
+#' @examples
+#' os_name()
 
 os_name <- function() {
   if (.Platform$OS.type == "windows") {
-    utils::win.version()
+    win_version()
 
   } else if (nzchar(Sys.which("uname"))) {
     uname <- system("uname -a", intern = TRUE)
@@ -58,3 +61,5 @@ os_name <- function() {
     )
   }
 }
+
+win_version <- function() .Call(c_winver)
