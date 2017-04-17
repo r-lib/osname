@@ -7,6 +7,8 @@
 #'
 #' @export
 #' @useDynLib osname, .registration = TRUE, .fixes = "c_"
+#' @examples
+#' os_name()
 
 os_name <- function() {
   if (.Platform$OS.type == "windows") {

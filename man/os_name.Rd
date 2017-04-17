@@ -12,3 +12,6 @@ A length one character vector.
 \description{
 The current version was adapted from \code{utils::sessionInfo()}.
 }
+\examples{
+os_name()
+}
