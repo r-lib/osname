@@ -1,0 +1,14 @@
+Package: osname
+Title: Human Readable Operating System Names
+Version: 1.0.0
+Author: Gábor Csárdi
+Maintainer: Gábor Csárdi <csardi.gabor@gmail.com>
+Description: For example, Windows 8.1 instead of version 6.3.9600. On macOS it includes
+  the release names, on Linux it includes the name of the distribution.
+License: GPL-2
+LazyData: true
+URL: https://github.com/r-pkgs/osname#readme
+BugReports: https://github.com/r-pkgs/osname/issues
+RoxygenNote: 6.0.1.9000
+Suggests: 
+    testthat
