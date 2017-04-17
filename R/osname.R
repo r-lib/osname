@@ -63,3 +63,9 @@ os_name <- function() {
 }
 
 win_version <- function() .Call(c_winver)
+
+## This is not available on older R versions
+
+startsWith <- function(x, prefix) {
+  suppressWarnings(substr(x, 1L, nchar(prefix)) == prefix)
+}
