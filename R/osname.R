@@ -1,8 +1,7 @@
 
 #' Human Readable Operating System Name
 #'
-#' Features:
-#' *
+#' The current version was adapted from `utils::sessionInfo()`.
 #'
 #' @return A length one character vector.
 #'

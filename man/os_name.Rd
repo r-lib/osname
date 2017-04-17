@@ -10,5 +10,5 @@ os_name()
 A length one character vector.
 }
 \description{
-Human Readable Operating System Name
+The current version was adapted from \code{utils::sessionInfo()}.
 }
